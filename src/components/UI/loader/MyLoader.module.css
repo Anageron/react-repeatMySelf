@@ -8,9 +8,9 @@
 
 @keyframes rotate {
     from {
-        transform: rotate(3600deg) scale(1);
+        transform: rotate(3600deg);
     }
     to {
-        transform: rotate(0deg) scale(1.2);
+        transform: rotate(0deg);
     }
 }

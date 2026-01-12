@@ -17,6 +17,13 @@
     align-items: center;
 }
 
+.post__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .post-enter {
   transform: translateX(-350px);
 }
@@ -64,4 +71,12 @@
   display: flex;
   gap: 20px;
   padding: 20px;
+}
+
+.post-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-block: 20px;
 }
